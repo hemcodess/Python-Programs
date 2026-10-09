@@ -173,6 +173,7 @@ print(challenge.isalnum()) # False
 
 challenge = 'thirty days of python'
 print(challenge.isalpha()) # False, space is once again excluded
+
 challenge = 'ThirtyDaysPython'
 print(challenge.isalpha()) # True
 num = '123'
@@ -183,7 +184,6 @@ print(challenge.isdecimal())  # False
 challenge = '123'
 print(challenge.isdecimal())  # True
 challenge = '\u00B2'
-print(challenge.isdigit())   # True 
 challenge = '12 3'
 print(challenge.isdecimal())  # False, space not allowed
 
