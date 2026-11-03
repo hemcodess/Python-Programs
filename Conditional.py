@@ -82,3 +82,14 @@ elif num < 0:
    print("Negative")
 else:
    print("Zero")
+
+#if condition with logical operators
+a = 0
+if a > 0 and a % 2 == 0:
+   print("A is even and positive integer")
+elif a > 0 and a % 2 != 0:
+   print("A is positive integer")
+elif a == 0:
+   print("A is zero")
+else:
+   print("A is negative")
